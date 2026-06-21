@@ -12,12 +12,12 @@ body{
 
 /* HEADER */
 
-.big-header{
+..big-header{
     background:linear-gradient(135deg,#ffb6c1,#ff69b4);
     color:white;
     text-align:center;
-    padding:30px;
-    font-size:3rem;
+    padding:15px;
+    font-size:2rem;
     text-shadow:2px 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -44,6 +44,7 @@ body{
     text-decoration:none;
     color:#ff1493;
     font-weight:bold;
+    font-size:18px;
 }
 .nav a:hover{
     color:#ff69b4;
@@ -271,6 +272,10 @@ footer{
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 768px) {
+    .big-header{
+        font-size:1.8rem;
+        padding:10px;
+    }
 
     .hero{
         height:300px;
@@ -291,8 +296,7 @@ footer{
     }
 
     .nav a{
-        display:inline-block;
-        margin:0;
-        font-size:12px;
+        font-size:18px;
     }
+
 }
