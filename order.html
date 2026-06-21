@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Order - Stella's Cakes & Pastries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="cakes.html">Cakes</a>
+    <a href="pastries.html">Pastries</a>
+    <a href="order.html">Order</a>
+    <a href="contact.html">Contact</a>
+    
+</nav>
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="130aeb0e-b8be-497b-a5d6-56a55b5ad891">
+
+    <label>Customer Name</label><br>
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <br><br>
+
+    <label>Email</label><br>
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <br><br>
+
+    <label>Select Cake Type</label><br>
+    <select name="cake_type" required>
+        <option value="">--Choose a Cake--</option>
+        <option>Birthday Cake</option>
+        <option>Wedding Cake</option>
+        <option>Anniversary Cake</option>
+        <option>Chocolate Cake</option>
+        <option>Red Velvet Cake</option>
+        <option>Fruit Cake</option>
+    </select>
+
+    <br><br>
+
+    <label>Cake Size</label><br>
+    <select name="cake_size" required>
+        <option value="">--Choose Size--</option>
+        <option>Small</option>
+        <option>Medium</option>
+        <option>Large</option>
+    </select>
+
+    <br><br>
+
+    <label>Pickup or Delivery?</label><br>
+    <select name="delivery_option" required>
+        <option value="">--Select--</option>
+        <option>Pickup</option>
+        <option>Delivery</option>
+    </select>
+
+    <br><br>
+
+    <label>Custom Instructions</label><br>
+    <textarea
+        name="custom_order"
+        placeholder="Cake message, colors, decorations, delivery date, etc."
+        rows="5"></textarea>
+
+    <br><br>
+
+    <button type="submit">Place Order</button>
+
+</form>
