@@ -296,14 +296,9 @@ footer{
         width:100%;
         max-width:350px;
     }
-}
-@media (max-width:768px){
-
-    .nav{
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap:10px;
-        text-align:center;
+    .nav a{
+        display:block;
+        margin:10px 0;
     }
-
 }
+
