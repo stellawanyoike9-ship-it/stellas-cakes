@@ -34,17 +34,17 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    flex-wrap:wrap;
-    gap:15px;
+    gap:10px;
     padding:15px;
     background:white;
+    flex-wrap:nowrap; /* keep on one line */
 }
 
 .nav a{
     text-decoration:none;
     color:#ff1493;
     font-weight:bold;
-    padding:5px 10px;
+    font-size:14px; /* smaller text */
 }
 .nav a:hover{
     color:#ff69b4;
