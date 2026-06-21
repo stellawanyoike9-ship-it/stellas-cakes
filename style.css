@@ -33,11 +33,12 @@ body{
 .nav{
     background:white;
     text-align:center;
-    padding:18px;
+    padding:15px;
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
     position:sticky;
     top:0;
     z-index:100;
+     gap:10px;
 }
 
 .nav a{
@@ -296,4 +297,12 @@ footer{
         width:100%;
         max-width:350px;
     }
+}
+@media (max-width:768px){
+
+    .nav a{
+        font-size:16px;
+        padding:5px;
+    }
+
 }
