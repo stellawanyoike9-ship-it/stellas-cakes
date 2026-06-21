@@ -44,14 +44,10 @@
 
 <form>
 
-    <input type="text" placeholder="Your Name" required><br><br>
-
-    <input type="email" placeholder="Your Email" required><br><br>
-
-    <input type="text" placeholder="Cake or Pastry Type" required><br><br>
-
-    <textarea placeholder="Order Details"></textarea><br><br>
-
-    <button type="submit">Submit Order</button>
-
+    <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="130aeb0e-b8be-497b-a5d6-56a55b5ad891">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
 </form>
