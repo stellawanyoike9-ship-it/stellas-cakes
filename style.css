@@ -275,6 +275,7 @@ footer{
     .big-header{
         font-size:1.8rem;
         padding:10px;
+        white-space:nowrap;
     }
 
     .hero{
