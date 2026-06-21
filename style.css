@@ -206,40 +206,62 @@ body{
 /* CONTACT FORM */
 
 form{
-    max-width:500px;
-    margin:30px auto;
+    max-width:600px;
+    margin:40px auto;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
 }
 
-input,
-textarea{
+form label{
+    display:block;
+    margin-bottom:8px;
+    color:#ff1493;
+    font-weight:bold;
+}
+
+form input,
+form select,
+form textarea{
     width:100%;
-    padding:15px;
-    margin:10px 0;
+    padding:12px;
     border:2px solid #ffc0cb;
     border-radius:10px;
-    outline:none;
+    font-size:16px;
+    margin-bottom:20px;
 }
 
-input:focus,
-textarea:focus{
+form input:focus,
+form select:focus,
+form textarea:focus{
+    outline:none;
     border-color:#ff69b4;
+    box-shadow:0 0 8px rgba(255,105,180,0.4);
+}
+
+form textarea{
+    resize:vertical;
+    min-height:120px;
 }
 
 form button{
     width:100%;
     padding:15px;
     border:none;
-    border-radius:10px;
-    background:#ff69b4;
+    border-radius:30px;
+    background:linear-gradient(135deg,#ff69b4,#ff1493);
     color:white;
     font-size:18px;
+    font-weight:bold;
     cursor:pointer;
+    transition:0.3s;
 }
 
 form button:hover{
-    background:#ff1493;
+    transform:translateY(-3px);
+    box-shadow:0 8px 15px rgba(255,105,180,0.4);
 }
-
 /* FOOTER */
 
 footer{
