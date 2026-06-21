@@ -294,9 +294,11 @@ footer{
 }
 @media (max-width:768px){
 
-    .nav a{
-        font-size:16px;
-        padding:5px;
+    .nav{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:10px;
+        text-align:center;
     }
 
 }
