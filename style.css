@@ -14,11 +14,12 @@ body{
 
 .big-header{
     background:linear-gradient(135deg,#ffb6c1,#ff69b4);
-    color: white;
+    color:white;
     text-align:center;
     padding:30px;
     font-size:3rem;
     text-shadow:2px 2px 5px rgba(0,0,0,0.2);
+}
 
 .mar{
     background:#fff;
@@ -30,21 +31,24 @@ body{
 /* NAVIGATION */
 
 .nav{
-    display:flex;
-    flex-direction:row; /* horizontal */
-    justify-content:center;
-    align-items:center;
-    gap:15px;
-    padding:15px;
     background:white;
+    text-align:center;
+    padding:18px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:100;
 }
 
 .nav a{
     text-decoration:none;
     color:#ff1493;
-    font-weight:bold;
+    margin:0 20px;
     font-size:18px;
+    font-weight:600;
+    transition:0.3s;
 }
+
 .nav a:hover{
     color:#ff69b4;
     border-bottom:3px solid #ff69b4;
@@ -271,8 +275,8 @@ footer{
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 768px) {
-   .header{
-        font: size 28px;
+    .header{
+        font: size 28px;;
     }
     .hero{
         height:300px;
@@ -283,17 +287,17 @@ footer{
         font-size:14px;
     }
 
-    .nav{
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
+    .grid{
+        flex-direction:column;
         align-items:center;
-        gap:8px;
-        flex-wrap:nowrap;
+    }
+
+    .card{
+        width:90%;
     }
 
     .nav a{
-        font-size:18px;
+        display:block;
+        margin:10px 0;
     }
-
 }
