@@ -272,11 +272,6 @@ footer{
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 768px) {
-    .big-header{
-        font-size:1.8rem;
-        padding:10px;
-        white-space:nowrap;
-    }
 
     .hero{
         height:300px;
