@@ -14,7 +14,7 @@ body{
 
 .big-header{
     background:linear-gradient(135deg,#ffb6c1,#ff69b4);
-    color:red !important;
+    color: white;
     text-align:center;
     padding:30px;
     font-size:3rem;
