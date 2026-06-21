@@ -32,20 +32,18 @@ body{
 
 .nav{
     display:flex;
+    flex-direction:row; /* horizontal */
     justify-content:center;
     align-items:center;
     gap:15px;
     padding:15px;
     background:white;
-    flex-wrap:nowrap;
 }
 
 .nav a{
     text-decoration:none;
     color:#ff1493;
     font-weight:bold;
-    font-size:14px;
-    white-space:nowrap;
 }
 .nav a:hover{
     color:#ff69b4;
