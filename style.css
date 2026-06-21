@@ -14,12 +14,11 @@ body{
 
 .big-header{
     background:linear-gradient(135deg,#ffb6c1,#ff69b4);
-    color:white;
+    color:red !important;
     text-align:center;
     padding:30px;
     font-size:3rem;
     text-shadow:2px 2px 5px rgba(0,0,0,0.2);
-}
 
 .mar{
     background:#fff;
