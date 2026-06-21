@@ -272,7 +272,7 @@ footer{
 
 @media (max-width: 768px) {
    .header{
-        font-size:2rem;
+        font-size:28px;
     }
     .hero{
         height:300px;
